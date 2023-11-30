@@ -1,0 +1,232 @@
+{
+    "cora": {
+        "gcn": {
+            "f1_score": 0.8355999,
+            "std": 0.00456508,
+            "alpha": 1.0,
+            "beta": 0.8,
+            "temp": 1.2,
+            "thresholds": [0.7, 0.7],
+            "pretrain_ep": 160,
+            "pretrain_nc": 30,
+            "warmup": 0
+        },
+        "gat": {
+            "f1_score": 0.8221999,
+            "std": 0.0077304592360350815,
+            "alpha": 0.02,
+            "beta": 2.3,
+            "temp": 1.7,
+            "thresholds": [0.7, 0.7],
+            "pretrain_ep": 175,
+            "pretrain_nc": 45,
+            "warmup": 1
+        },
+        "gsage": {
+            "f1_score": 0.82,
+            "std": 0.004827007354458862,
+            "alpha": 0.13,
+            "beta": 3.2,
+            "temp": 1.0,
+            "thresholds": [0.7, 0.7],
+            "pretrain_ep": 195,
+            "pretrain_nc": 35,
+            "warmup": 2
+        },
+        "jknet": {
+            "f1_score": 0.8045,
+            "std": 0.009162423260251606,
+            "alpha": 0.02,
+            "beta": 3.8,
+            "temp": 0.1,
+            "thresholds": [0.7, 0.7],
+            "pretrain_ep": 75,
+            "pretrain_nc": 10,
+            "warmup": 10
+        }
+    },
+    "citeseer": {
+        "gcn": {
+            "f1_score": 0.73305,
+            "std": 0.007172691266184548,
+            "alpha": 0.79,
+            "beta": 2.9,
+            "temp": 0.5,
+            "thresholds": [0.5, 0.4],
+            "pretrain_ep": 70,
+            "pretrain_nc": 215,
+            "warmup": 0
+        },
+        "gat": {
+            "f1_score": 0.716249,
+            "std": 0.010624852940158743,
+            "alpha": 0.18,
+            "beta": 0.4,
+            "temp": 1.6,
+            "thresholds": [0.5, 0.4],
+            "pretrain_ep": 210,
+            "pretrain_nc": 10,
+            "warmup": 8
+        },
+        "gsage": {
+            "f1_score": 0.7265999999999999,
+            "std": 0.00692387174924551,
+            "alpha": 0.08,
+            "beta": 0.0,
+            "temp": 1.4,
+            "thresholds": [0.5, 0.4],
+            "pretrain_ep": 290,
+            "pretrain_nc": 10,
+            "warmup": 5
+        },
+        "jknet": {
+            "f1_score": 0.6971499999999999,
+            "std": 0.013947311568900991,
+            "alpha": 0.17,
+            "beta": 0.0,
+            "temp": 0.8,
+            "thresholds": [0.5, 0.4],
+            "pretrain_ep": 145,
+            "pretrain_nc": 5,
+            "warmup": 0
+        }
+    },
+    "ppi": {
+        "gcn": {
+            "f1_score": 0.46759581971933517,
+            "std": 0.004080315157827575,
+            "alpha": 0.28,
+            "beta": 0.5,
+            "temp": 0.9,
+            "thresholds": [1.0, 0.8],
+            "pretrain_ep": 245,
+            "pretrain_nc": 140,
+            "warmup": 2
+        },
+        "gat": {
+            "f1_score": 0.446814757614913,
+            "std": 0.008489154492390514,
+            "alpha": 0.01,
+            "beta": 3.1,
+            "temp": 0.9,
+            "thresholds": [1.0, 0.8],
+            "pretrain_ep": 65,
+            "pretrain_nc": 155,
+            "warmup": 8
+        },
+        "gsage": {
+            "f1_score": 0.45223802559499565,
+            "std": 0.00551736949793766,
+            "alpha": 0.43,
+            "beta": 1.8,
+            "temp": 1.9,
+            "thresholds": [1.0, 0.8],
+            "pretrain_ep": 85,
+            "pretrain_nc": 215,
+            "warmup": 0
+        },
+        "jknet": {
+            "f1_score": 0.5362943025563041,
+            "std": 0.0022671646455270232,
+            "alpha": 0.19,
+            "beta": 0.4,
+            "temp": 2.0,
+            "thresholds": [1.0, 0.8],
+            "pretrain_ep": 165,
+            "pretrain_nc": 260,
+            "warmup": 0
+        }
+    },
+    "pubmed": {
+        "gcn": {
+            "f1_score": 0.6142857142857142,
+            "std": 0.008756924957904859,
+            "alpha": 0.62,
+            "beta": 0.9,
+            "temp": 2.1,
+            "thresholds": [1.0, 0.1],
+            "pretrain_ep": 290,
+            "pretrain_nc": 295,
+            "warmup": 9
+        },
+        "gat": {
+            "f1_score": 0.5462785114045619,
+            "std": 0.008535025815841165,
+            "alpha": 0.37,
+            "beta": 1.5,
+            "temp": 0.9,
+            "thresholds": [0.3, 0.1],
+            "pretrain_ep": 5,
+            "pretrain_nc": 275,
+            "warmup": 4
+        },
+        "gsage": {
+            "f1_score": 0.5705474189675869,
+            "std": 0.006645067228378417,
+            "alpha": 0.48,
+            "beta": 0.2,
+            "temp": 1.3,
+            "thresholds": [0.3, 0.1],
+            "pretrain_ep": 35,
+            "pretrain_nc": 115,
+            "warmup": 8
+        },
+        "jknet": {
+            "f1_score": 0.6038415366146458,
+            "std": 0.010165168369755841,
+            "alpha": 0.81,
+            "beta": 1.6,
+            "temp": 0.4,
+            "thresholds": [0.3, 0.1],
+            "pretrain_ep": 40,
+            "pretrain_nc": 75,
+            "warmup": 10
+        }
+    },
+    "airport": {
+        "gcn": {
+            "f1_score": 0.6142857142857142,
+            "std": 0.008756924957904859,
+            "alpha": 0.62,
+            "beta": 0.9,
+            "temp": 2.1,
+            "thresholds": [0.3, 0.1],
+            "pretrain_ep": 290,
+            "pretrain_nc": 295,
+            "warmup": 9
+        },
+        "gat": {
+            "f1_score": 0.5462785114045619,
+            "std": 0.008535025815841165,
+            "alpha": 0.37,
+            "beta": 1.5,
+            "temp": 0.9,
+            "thresholds": [0.3, 0.1],
+            "pretrain_ep": 5,
+            "pretrain_nc": 275,
+            "warmup": 4
+        },
+        "gsage": {
+            "f1_score": 0.5705474189675869,
+            "std": 0.006645067228378417,
+            "alpha": 0.48,
+            "beta": 0.2,
+            "temp": 1.3,
+            "thresholds": [0.3, 0.1],
+            "pretrain_ep": 35,
+            "pretrain_nc": 115,
+            "warmup": 8
+        },
+        "jknet": {
+            "f1_score": 0.6038415366146458,
+            "std": 0.010165168369755841,
+            "alpha": 0.81,
+            "beta": 1.6,
+            "temp": 0.4,
+            "thresholds": [0.3, 0.1],
+            "pretrain_ep": 40,
+            "pretrain_nc": 75,
+            "warmup": 10
+        }
+    }
+}
